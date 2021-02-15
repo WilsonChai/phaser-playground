@@ -1,4 +1,3 @@
-import * as Phaser from 'phaser';
 import { IImageConstructor } from '../interfaces/image.interface';
 
 export class Redhat extends Phaser.GameObjects.Image {

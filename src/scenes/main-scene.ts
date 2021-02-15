@@ -1,4 +1,3 @@
-import * as Phaser from 'phaser';
 import { Redhat } from '../objects/redhat';
 
 export class MainScene extends Phaser.Scene {

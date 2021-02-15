@@ -1,4 +1,3 @@
-import * as Phaser from 'phaser';
 export interface IImageConstructor {
   scene: Phaser.Scene;
   x: number;
