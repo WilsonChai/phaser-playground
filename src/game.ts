@@ -1,4 +1,4 @@
-import 'Phaser';
+import * as Phaser from 'phaser';
 import { GameConfig } from './config';
 
 export class Game extends Phaser.Game {
