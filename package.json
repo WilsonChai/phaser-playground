@@ -16,8 +16,7 @@
   },
   "scripts": {
     "dev": "webpack --mode development && webpack serve --mode development",
-    "build": "webpack --mode development && webpack serve --mode development",
-    "heroku-postbuild": "webpack"
+    "heroku-postbuild": "node dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +32,7 @@
   },
   "homepage": "https://github.com/digitsensitive/phaser3-typescript#readme",
   "engines": {
-    "node": "12.14.1"
+    "node": "12.14.1",
+    "yarn": "1.22.10"
   }
 }
