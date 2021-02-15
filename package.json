@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "webpack --mode development && webpack serve --mode development",
-    "build": "webpack --mode development && webpack serve --mode development"
+    "start": "node game.js",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
