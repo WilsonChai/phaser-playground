@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "webpack --mode development && webpack serve --mode development",
-    "start": "webpack --mode production",
+    "build": "webpack --mode production",
     "heroku-postbuild": "node dist/bundle.js"
   },
   "repository": {
